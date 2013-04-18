@@ -47,58 +47,36 @@ $(document).ready(function(){
 
      };
 
-    function less (s,l){
-
+    function less (s){
+        var less;
         if(s <= 9){
-            if($('.past').text() == ""){
+           less = 0;
+           return less;
 
-
-                $('.now').text(l[0]);
-
-
-                $('.next').text(l[1]);
-
-
-            }
-            else{
-                pastF ();
-            $("#now").click();
-            $('.past').text(l[5]);
-
-            $('.now').text(l[0]);
-
-            $('.next').text(l[1]);
-
-            }
         }
         else if(s >= 10 && s <= 19){
 
-            $('.past').text(l[0]);
-            $('.now').text(l[1]);
-            $('.next').text(l[2]);
+            less = 1;
+            return less;
         }
         else if(s >= 20 && s <= 29){
 
-            $('.past').text(l[1]);
-            $('.now').text(l[2]);
-            $('.next').text(l[3]);
+            less = 2;
+            return less;
         }
         else if(s >= 30 && s <= 39){
-            $('.past').text(l[2]);
-            $('.now').text(l[3]);
-            $('.next').text(l[4]);
+            less = 3;
+            return less;
         }
         else if(s >= 40 && s <= 49){
 
-            $('.past').text(l[3]);
-            $('.now').text(l[4]);
-            $('.next').text(l[5]);
+            less = 4;
+            return less;
         }
         else{
 
-            $('.past').text(l[4]);
-            $('.now').text(l[5]);
-            $('.next').text(l[0]);
+            less = 5;
+            return less;
         }
 
     }
@@ -110,7 +88,7 @@ $(document).ready(function(){
          minutes = forTime.getMinutes();
          seconds = forTime.getSeconds();
 
-        less(seconds,lessons);
+        var less = less(seconds);
 
         if(seconds < 10){
             seconds = "0" + seconds;
