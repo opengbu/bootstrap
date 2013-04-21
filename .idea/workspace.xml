@@ -8,10 +8,18 @@
     <file path="/a.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1363970499958" ignored="false" />
     <file path="/a.html" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1363970540475" ignored="false" />
     <file path="/style.css" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1364158756757" ignored="false" />
-    <file path="/timetable.html" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1365658071705" ignored="false" />
-    <file path="/timeTableStyles.less" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366198947554" ignored="false" />
-    <file path="/MyScript.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366326302659" ignored="false" />
+    <file path="/timetable.html" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366514216374" ignored="false" />
+    <file path="/timeTableStyles.less" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515825462" ignored="false" />
+    <file path="/MyScript.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366514758990" ignored="false" />
     <file path="/init.php" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1365481416977" ignored="false" />
+    <file path="/a.css" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366514895113" ignored="false" />
+    <file path="$PROJECT_DIR$/js/ba-debug.min.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/jquery-1.8.3.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/less.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/jquery-1.9.1.min.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/bootstrap.min.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/desktop.ini" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
+    <file path="$PROJECT_DIR$/js/bootstrap.js" changelist="c6dfd751-eecc-43d7-bf2e-918113d4c81f" time="1366515044372" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +42,7 @@
       <file leaf-file-name="timetable.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timetable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="32" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+            <state line="26" column="39" selection-start="915" selection-end="915" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -43,7 +51,7 @@
       <file leaf-file-name="timeTableStyles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/timeTableStyles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="59" column="68" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +60,7 @@
       <file leaf-file-name="MyScript.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/MyScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="27" selection-start="2376" selection-end="2376" vertical-scroll-proportion="2.2303207">
+            <state line="100" column="12" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.43333334">
               <folding />
             </state>
           </provider>
@@ -85,10 +93,26 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="483" />
+    <option name="x" value="581" />
+    <option name="y" value="462" />
     <option name="width" value="1102" />
     <option name="height" value="528" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -156,13 +180,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.timetable.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
@@ -225,6 +249,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\ArtBi\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -256,7 +281,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="483" width="1102" height="528" extended-state="1" />
+    <frame x="581" y="462" width="1102" height="528" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -337,6 +362,18 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="bootstrap" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="bootstrap" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/timetable.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -411,25 +448,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timetable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+        <state line="26" column="39" selection-start="915" selection-end="915" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/timeTableStyles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="59" column="68" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/MyScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="27" selection-start="2376" selection-end="2376" vertical-scroll-proportion="2.2303207">
+        <state line="100" column="12" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.43333334">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

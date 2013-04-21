@@ -1,3 +1,6 @@
+body{
+  margin-top: 10px;
+}
 .outline{
   outline: 1px solid #00b3ee;
 }
@@ -11,15 +14,13 @@
   margin-bottom: 5px;
 
 }
-#past, #next{
-   width: 280px;
-   margin-left: 50px;
- }
-#now{
-  width: 380px;
-
+.less{
+  .outline;
+  padding: 5px 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
 }
-
 
 .p{
   padding: 0 auto;
@@ -30,11 +31,14 @@
 .position{
   position: relative;
 }
+
 .center{
+  outline: 0px solid #00b3ee;
   height: 300px;
-  .outline;
   position: absolute;
-  top: 10%;
+  left: 8%;
+
+
 
 }
 .lessons{
@@ -46,16 +50,24 @@
   width: 300px;
   margin-left: 50px;
 }
-@media screen and (min-width:770px) and (max-width:1680px){
-    .center{
+@media screen and (min-width:901px) and (max-width:1680px){
+  .center{
     left: 35%;
+  }
+
+
+
+}
+@media screen and (min-width:770px) and (max-width:900px){
+    .center{
+    left: 25%;
     }
 
 
 
 }
 
-@media screen and (min-width:501px) and (max-width:769px) {
+@media screen and (min-width:601px) and (max-width:769px) {
   .center{
     width: 400px;
     left: 20%;
@@ -65,10 +77,10 @@
   }
 }
 
-@media screen and (min-width:400px) and (max-width:500px) {
+@media screen and (min-width:400px) and (max-width:600px) {
   .center{
     width: 400px;
-    top: 10%;
+    top: 20%;
 
 
   }
