@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $('#button').click(function(){
 
-        $('#center').css({outline : '1px solid #00b3ee'});
+        $('#center').animate({ 'width': '400px', 'height': '220' ,'borderWidth' : '3px'},500);
         var block = $('<div class="less outL"></div>');
         var lessons = ["Первая", "Вторая", "Третья", "Четвертая", "Пятая", "Шестая"];
 
@@ -103,7 +103,7 @@ $(document).ready(function () {
 
        setInterval(function (){
            $('#dead').remove()
-       },4000);
+       },5000);
 
     });
 });
