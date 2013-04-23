@@ -13,6 +13,8 @@
 
     <script type="text/javascript" src="js/less.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
     <script type="text/javascript" src="js/MyScript.js"></script>
 </head>
 <body>
@@ -20,8 +22,10 @@
     <div id="center" class="center">
         <div class="row">
             <div  class="outL">
+                <div class="progress progress-striped active">
 
-                <button id="button" type="button" class="btn btn-large btn-primary disabled time">Start!</button>
+                </div>
+                <button id="button" type="button" class="btn btn-large btn-primary disabled time" rel="tooltip" data-content="Нажми чтобы запустить" data-placement="bottom" data-animation="bottom" date-trigger="hover">Start!</button>
 
             </div>
 

@@ -4266,7 +4266,7 @@ a.thumbnail:focus {
 }
 @-webkit-keyframes progress-bar-stripes {
   from {
-    background-position: 40px 0;
+    background-position: 30px 0;
   }
   to {
     background-position: 0 0;
@@ -4623,7 +4623,7 @@ a.thumbnail:focus {
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #515151;
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
@@ -4662,7 +4662,7 @@ a.thumbnail:focus {
   bottom: 1px;
   margin-left: -10px;
   border-bottom-width: 0;
-  border-top-color: #ffffff;
+  border-top-color: #515151;
 }
 .popover.right .arrow {
   top: 50%;
@@ -4676,7 +4676,7 @@ a.thumbnail:focus {
   left: 1px;
   bottom: -10px;
   border-left-width: 0;
-  border-right-color: #ffffff;
+  border-right-color: #515151;
 }
 .popover.bottom .arrow {
   left: 50%;
@@ -4703,7 +4703,7 @@ a.thumbnail:focus {
 .popover.left .arrow:after {
   right: 1px;
   border-right-width: 0;
-  border-left-color: #ffffff;
+  border-left-color: #515151;
   bottom: -10px;
 }
 .modal-backdrop {
